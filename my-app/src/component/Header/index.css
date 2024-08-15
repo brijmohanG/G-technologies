@@ -1,0 +1,38 @@
+.header-bg-container{
+    position: sticky;
+    top: 0; 
+    z-index: 1000;
+    background-color: white;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.item{
+    cursor: pointer;
+}
+
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-g{
+    color: #AA4A44;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.brand-technologies{
+    color: blue;
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 25px;
+}
