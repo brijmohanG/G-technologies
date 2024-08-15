@@ -30,12 +30,12 @@ class Home extends Component{
                         Our software development service is designed to address the unique challenges and goals of each client, ensuring that our solutions meet their specific requirements. At present we are a Robust Team having more than 1 years of diverse experience in technology and engaging with customers at a deeper level to provide cutting edge solutions.</p>
                     </div>
                 </div>
-                <div className="banner-container-first">
-                    <div>
+                <div className="banner-container-second">
+                    <div className="order-second">
                         <h1 className="brand" data-aos="zoom-in" data-aos-duration="2000">Professional Team innovative solutions</h1>
                         <p className="banner-paragraph" data-aos="zoom-in" data-aos-duration="2000">We believe in coming up with innovative ideas to DELIVER excellence in Software Product Development with a constant accent on quality and customer satisfaction to brighten your business among your competitors. We are a team of highly experienced Senior Developers, Designers and Digital Marketers who offer comprehensive software development services around the world. We shape your ideas and serve them in the form of a product to get your best returns. Also our dedicated market making team will help you in your product marketing and lead generation..</p>
                     </div>
-                    <div>
+                    <div className="order-first">
                         <img src="https://res.cloudinary.com/dmr1euvhf/image/upload/v1723623571/g-technology-two_csyv90.png" data-aos="zoom-in" data-aos-duration="2000" className="banner-image" alt="p"/>
                     </div>
                 </div>

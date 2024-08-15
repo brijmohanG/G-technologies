@@ -1,8 +1,15 @@
 .bottom-bg-container{
     background-color: rgb(33, 37, 41);
     color: #ffffff;
+    padding: 20px;
+}
+.un-list{
+  list-style: none;
 }
 
+.main-heading{
+  font-size: 20px;
+}
 .wave-footer {
     position: relative;
     width: 100%;

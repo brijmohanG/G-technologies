@@ -6,8 +6,8 @@ class Bottom extends Component {
         return (
             <div className="bottom-bg-container">
                 <div>
-                    <h1>Hire Dedicated Developers</h1>
-                    <ul>
+                    <h1 className="main-heading">Hire Dedicated Developers</h1>
+                    <ul className="un-list">
                         <li>Hire ReactJS Developers</li>
                         <li>Hire NodeJS Developers</li>
                         <li>Hire NestJS Developers</li>

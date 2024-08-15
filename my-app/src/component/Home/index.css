@@ -26,19 +26,66 @@
     font-weight: 400;
     font-size: 18PX;
 }
+@media (min-width: 768px) {
+    .banner-container-first{
+        padding: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        width: 90%;
+        opacity: 1;
+        transform: translate(0);
+    }
+    .banner-image{
+        height: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .banner-container-second{
+        padding: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        width: 90%;
+        opacity: 1;
+        transform: translate(0);
+    }
+    .banner-image{
+        height: 400px;
+    }
+}
 
 .banner-container-first{
-    padding: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
+    padding: 3px;
     width: 90%;
     opacity: 1;
     transform: translate(0);
 }
+
 .banner-image{
-    height: 400px;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.banner-container-second{
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 90%;
+}
+
+.order-second{
+    order: 1;
+}
+.order-first{
+    order: 0;
 }
 
 .brand{
@@ -76,22 +123,31 @@
 .card-main-heading{
     text-align: center;
 }
-
-.card-bg-container{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 90%;
-
+@media (min-width: 768px) {
+    .card-bg-container{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 90%;
+    
+    }
+    .card-container{
+        background: #FFFFFF;
+        border: 1px solid #DCDCDC;
+        border-radius: 20px;
+        padding: 24px 10px 20px 24px;
+        width: 31.5%;
+        margin: 0 auto 1.5rem;
+    }
 }
 
 .card-container{
     background: #FFFFFF;
     border: 1px solid #DCDCDC;
     border-radius: 20px;
-    padding: 24px 10px 20px 24px;
-    width: 31.5%;
+    width: 80%;
     margin: 0 auto 1.5rem;
+    margin-top: 20px;
 }
 
 .card-heading{
